@@ -1,9 +1,22 @@
 ### IBM Funcionários | Análise de dados
 
 ### Objetivo
+
 O objetivo é prever a probabilidade de um funcionário sair da empresa.
 
-### Dataset
+### Organização do projeto
+
+```
+
+├── .gitignore    <- Arquivos e diretórios a serem ignorados pelo Git  
+├── LICENSE       <- Licença de código aberto (MIT)  
+├── README.md     <- README principal para desenvolvedores que utilizam este projeto  
+├── notebooks     <- Cadernos Jupyter contendo análises e experimentos.
+       ├── ProjetoIBM.ipynb
+
+```
+
+### Mais sobre o Dataset
 
 O dataset a ser utilizado é o *IBM HR Analytics Employee Attrition & Performance*, disponível no Kaggle.
 O dataset contém informações sobre funcionários de uma empresa fictícia, como idade, gênero, estado civil, nível de satisfação, entre outros. 
@@ -33,10 +46,11 @@ Rotatividade é calculada dividindo o número de empregados que saem pelo númer
 Enquanto ambos atrito e rotatividade lidam com empregados deixando a organização, eles diferem em seu escopo e as implicações estratégicas para gerenciar e entender a dinâmica da força de trabalho. No seu conjunto de dados de empregados, distinguir entre atrito e rotatividade pode ajudar na customização de estratégias para planejamento da força de trabalho, retenção e desenvolvimento organizacional.
 
 ### Ferramentas
- - Python: Pandas
+
+ - Python: Pandas e Matplotlib
 
 ### Como Reproduzir / Contribuir com o Projeto
 
- - Baixar o arquivo .ipynb, dessa forma, tem acesso a todo o código. 
-
+ - Baixar o arquivo .ipynb
+ - Baixar a base de dados fornecida pela IBM.
 
